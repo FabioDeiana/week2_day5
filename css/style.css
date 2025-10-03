@@ -42,8 +42,12 @@ table {
   margin: 1em 0;
 }
 
+body {
+  background-color: #e9edee;
+}
+
 .amazon {
-  background-color: rgb(20, 34, 34);
+  background-color: #222f3f;
 }
 
 #firstlogo {
@@ -55,10 +59,10 @@ table {
 }
 
 #menu {
-  background-color: rgb(72, 72, 72);
+  background-color: #364759;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 #menu a {
@@ -68,7 +72,7 @@ table {
 }
 
 #gift {
-  background-color: rgb(239, 176, 59);
+  background-color: #f76500;
   color: white;
   width: 90%;
   margin: 0 auto;
@@ -79,15 +83,113 @@ table {
 #gift p {
   padding-top: 4px;
   padding-bottom: 4px;
-  margin-left: 45%;
+  text-align: center;
 }
 
 #holiday {
   width: 90%;
-  height: 100px;
+  height: 150px;
   background-image: url(bg-image.png);
   color: white;
   margin: 0 auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  background-size: 100%;
+}
+
+#holiday h3 {
+  text-align: center;
+  padding-top: 42px;
+}
+
+#holiday p {
+  text-align: center;
+  padding-top: 1%;
+}
+
+#list {
+  width: 90%;
+  height: 300px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+#list h5 {
+  padding-top: 12px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+#shop {
+  text-decoration: none;
+  color: cornflowerblue;
+  margin-left: 15px;
+}
+
+.side_image {
+  display: inline;
+}
+
+.side_image img {
+  display: inline;
+  width: 200px;
+  height: 250px;
+  border-radius: 25%;
+  margin: 0 auto;
+  margin-left: 5%;
+}
+
+#vr {
+  background-image: url(./img_9.png);
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+.gaming {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.gaming a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+#speaker {
+  background-image: url(./img_10.png);
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  background-size: 100%;
+}
+
+#back {
+  background-color: #364759;
+  color: white;
+  height: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#back a {
+  color: white;
+  margin-top: 15%;
+}
+
+#last_logo {
+  width: 10%;
+  height: 50px;
+  margin-left: 45%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.amazon_2 {
+  background-color: #222f3f;
+  width: 100%;
+  height: 150px;
 }
